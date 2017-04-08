@@ -1,0 +1,32 @@
+{
+  "name": "bc-21-assignment-day0",
+  "version": "1.0.0",
+  "description": "Bootcamp 21 Day 0 Assignment",
+  "main": "app/library.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "spec/fizz-buzz-lab.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/craftword/bc-21-assignment-day0"
+  },
+  "author": "Philip Newman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craftword/bc-21-assignment-day0"
+  },
+  "homepage": "https://github.com/craftword/bc-21-assignment-day0",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "keywords": [
+    "api"
+  ]
+}
