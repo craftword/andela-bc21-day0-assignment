@@ -7,8 +7,7 @@ exports.getPrimes = function (n) {
       /**
      * An integer is prime if it is not divisible by any prime less than or equal to its square root
      **/
-      let j,k=2,
-      arrPrime=[2];
+      var j,k=2,arrPrime=[2];
       for (i=3;i<=n;i+=2){
         j = Math.sqrt(i);
         isPrime = true;
